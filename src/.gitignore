@@ -1,0 +1,29 @@
+# =============================================
+#  .gitignore — Uniformes Escolares API
+# =============================================
+
+# Dependencias
+node_modules/
+
+# Variables de entorno (contiene contraseñas)
+.env
+
+# Carpeta basura de Windows
+Thumbs.db
+desktop.ini
+
+# Carpeta basura de Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Carpeta de builds
+dist/
+build/
+
+# Editor
+.vscode/settings.json
+.idea/
